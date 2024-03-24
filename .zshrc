@@ -108,5 +108,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias art='php artisan'
+alias dep="vendor/bin/dep"
+alias pest="vendor/bin/pest"
+alias pint="vendor/bin/pint"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+alias config='/usr/bin/git --git-dir=/home/raul/.cfg/ --work-tree=/home/raul'
